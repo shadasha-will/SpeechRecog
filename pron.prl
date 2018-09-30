@@ -1,0 +1,83 @@
+#!/usr/bin/perl
+use utf8;
+
+while(<>)
+{#spanish orthographic to phonetic translation
+ s/\r?\n//; #removing new lines from the file
+ $word = $_;
+ 
+ s/EY/ej /g;
+ s/_Y/i /g;
+ s/Y_/i /g;
+
+ s/GE/x e /g;
+ s/GI/x i /g;
+ s/GUE/g e /g;
+ s/GUIE/g j e/g;
+ s/GUI/g i /g;
+ s/GUA/g w a /g;
+ s/G([AOU])/g \1 /g;
+ s/^G/g /g;
+ 
+ s/QUIE/k j e /g;
+ s/QUI/k i /g;
+ s/QUA/k w a /g;
+ s/QUE/k e /g;
+
+ 
+ s/CE/s e /g;
+ s/CI/s i /g;
+ s/CH/tsh /g;
+ s/CA/k a /g;
+ s/CO/k o /g;
+ s/CUE/k w e /g;
+ s/CU/k u /g;
+ s/CN/k n /g;
+ s/C/k /g;
+ s/([AEIOU])R([AEIOU])/\1 r \2 /g;
+ s/RR/rr /g;
+ s/_R/rr /g; 
+ s/LL/j /g;
+ s/n/ny /g; 
+ 
+ s/UA/w a /g;
+ s/AU/a w /g;
+ s/UI/w i /g;
+ s/IE/j e /g;
+ s/AI/a j/g;
+ 
+ 
+ s/A/a /g;
+ s/B/b /g;
+ s/D/d /g;
+ s/E/e /g;
+ s/F/f /g;
+ s/G/g /g;
+ s/H/ /g;
+ s/I/i /g;
+ s/J/x /g;
+ s/K/k /g;
+ s/L/l /g;
+ s/M/m /g;
+ s/N/n /g;
+ s/Ñ/ny /g;
+ s/O/o /g;
+ s/P/p /g;
+ s/S/s /g;
+ s/T/t /g;
+ s/U/u /g;
+ s/V/b /g;
+ s/W/w /g;
+ s/Y/j /g;
+ s/X/ks /g;  
+ s/R/r /g;
+ s/Z/s /g;
+ s/_//g;
+ 
+ s/$/ sp/g; #final short pause model
+ s/([^\sa-z])([^\s])/\1 \2 /g; #insert spaces behind rest of capitals 
+
+  $_=lc; # rest to lowercase
+ 
+  print "$word\t$_\n";
+}

@@ -1,0 +1,16 @@
+#!/usr/bin/perl
+
+$j=1;
+print "#!MLF#\n";
+while(<>)
+{
+$sj=sprintf("%03d", $j);
+$_ = uc;
+s/[:,.?!]//g;
+s/\s{1,}/_/g;
+s/^/\"*\S$sj.lab\"\n/g;
+s/\s/\n/g;
+print$_,".\n";
+
+$j=$j+1;
+}
