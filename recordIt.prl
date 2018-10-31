@@ -1,4 +1,4 @@
-#!/usr/bin/perl
+#!/usr/bin/perl -w
 system "mkdir data48k";
 system "mkdir data";
 $j=1;

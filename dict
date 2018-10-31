@@ -167,7 +167,7 @@ ESTADOS	e s t a d o s  sp
 ESTAN	e s t a n  sp
 ESTANDARES	e s t a n d a  r e  s  sp
 ESTE	e s t e  sp
-ESTOI	e s t o i  sp
+ESTOY	e s t o i  sp
 ESTUDIOS	e s t u d i o s  sp
 EVENTOS	e b e n t o s  sp
 EVIDENCIA	e b i d e n s i a  sp
@@ -206,6 +206,7 @@ GRETA	g r e t a  sp
 GUATEMALA	g w a t e m a l a  sp
 GUATEMALTECO	g w a t e m a l t e k o  sp
 HA	 a  sp
+HAY      a j sp
 HABER	 a b e r  sp
 HABIA	 a b i a  sp
 HABITACION	 a b i t a s i o n  sp
@@ -217,7 +218,6 @@ HACER	 a s e r  sp
 HACIA	 a s i a  sp
 HAN	 a n  sp
 HAREMOS	 a  r e  m o s  sp
-HAI	 a j sp
 HAYA	 a j a  sp
 HE	 e  sp
 HECHO	 e tsh o  sp
@@ -228,7 +228,7 @@ HOLLIN	 o j i n  sp
 HOMBRES	 o m b r e s  sp
 HOMOSEXUALES	 o m o s e ks w a l e s  sp
 HORARIO	 o  r a  r i o  sp
-HOI	 o i  sp
+HOY	 o i  sp
 HUBO	 u b o  sp
 IDEA	i d e a  sp
 IGNORARON	i g n o  r a  r o n  sp
@@ -248,13 +248,13 @@ INTERNET	i n t e r n e t  sp
 INVIERTEN	i n b j e r t e n  sp
 JUEGOS	x u e g o  s  sp
 LA	l a  sp
-LADI	l a d i  sp
+LADY	l a d i  sp
 LAS	l a s  sp
 LAVALAS	l a b a l a s  sp
 LEER	l e e r  sp
 LESBIANAS	l e s b i a n a s  sp
 LEWIS	l e w i s  sp
-LEI	l e i  sp
+LEY	l e i  sp
 LIMPIOS	l i m p i o s  sp
 LISTA	l i s t a  sp
 LLAMADAS	j a m a d a s  sp
@@ -483,5 +483,6 @@ VIEJAS	b j e x a s  sp
 VIOLAN	b i o l a n  sp
 VIVEN	b i b e n  sp
 VOZ	b o s  sp
-I	i  sp
+Y	i  sp
 YA	j a  sp
+.       sp
