@@ -27,6 +27,8 @@ AMBOS	a m b o s  sp
 AMOR	a m o r  sp
 ANALIZAR	a n a l i s a r  sp
 ANIMALES	a n i m a l e s  sp
+AnO     a ny o  sp
+AnOS    a ny o s  sp
 ANTES	a n t e s  sp
 ANTIGUOS	a n t i g u  o s  sp
 APRENDER	a p r e n d e r  sp
@@ -49,8 +51,6 @@ AVENTURAS	a b e n t u  r a  s  sp
 AYUDA	a j u d a  sp
 AYUDARAN	a j u d a  r a  n  sp
 AZUCARADAS	a s u k a r a d a s  sp
-AnO	a ny o  sp
-AnOS	a ny o s  sp
 BAJOS	b a x o s  sp
 BANDERA	b a n d e  r a   sp
 BASADO	b a s a d o  sp
@@ -73,7 +73,7 @@ CASI	k a s i  sp
 CASO	k a s o  sp
 CELSIUS	s e l s i u s  sp
 CELULAR	s e l u l a r  sp
-CHRIS	tsh r i s  sp
+CHRIS	k r i s  sp
 CIENTIFICA	s i e n t i f i k a  sp
 CIENTIFICOS	s i e n t i f i k o s  sp
 CIUDADES	s i u d a d e s  sp
@@ -253,7 +253,7 @@ LAS	l a s  sp
 LAVALAS	l a b a l a s  sp
 LEER	l e e r  sp
 LESBIANAS	l e s b i a n a s  sp
-LEWIS	l e w i s  sp
+LEWIS	l u i s  sp
 LEY	l e i  sp
 LIMPIOS	l i m p i o s  sp
 LISTA	l i s t a  sp
@@ -414,7 +414,7 @@ SERA	s e  r a   sp
 SESENTA	s e s e n t a  sp
 SEnALES	s e ny a l e s  sp
 SI	s i  sp
-SIDNEI	s i d n e i  sp
+SIDNEY	s i d n e  sp
 SIDO	s i d o  sp
 SIGNIFICA	s i g n i f i k a  sp
 SIGUIENTES	s i g j en t e s  sp
