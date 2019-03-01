@@ -10,6 +10,7 @@ def run(filename):
         for line in lines:
             if line:
                 sent_label = line.split()[0]
+                line = ' '.join([word.upper() for word in line.split(' ')])
                 sent = "\n".join(line.split()[1:])
                 label = f'"*{sent_label}.lab"'
                 print(f'{label}\n{sent}')

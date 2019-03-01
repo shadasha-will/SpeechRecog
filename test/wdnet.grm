@@ -1,6 +1,6 @@
-$fem_noun = mujer | perra | doctora | hija | rosa | torta | llave | piscina | luz | cancion | profesora;
-$masc_noun =  cartero | teatro | tio | mapa | tema | dia | platano | perro | doctor | planeta | carne;
-$masc_art = el;
-$fem_art = la;
-$verb = tiene | pone | sabe | come | quire | encuentra;
+$fem_noun = MUJER | PERRA | DOCTORA | HIJA | ROSA | TORTA | LLAVE | PISCINA | LUZ | CANCION | PROFESORA;
+$masc_noun =  CARTERO | TEATRO | TIO | MAPA | TEMA | DIA | PLATANO | PERRO | DOCTOR | PLANETA | CARNE;
+$masc_art = EL;
+$fem_art = LA;
+$verb = TIENE | PONE | SABE | COME | QUIERE | ENCUENTRA;
 ( SENT-START ( $fem_art $fem_noun $verb $fem_art $fem_noun | $fem_art $fem_noun $verb $masc_art $masc_noun | $masc_art $masc_noun $verb $fem_art $fem_noun | $masc_art $masc_noun $verb $fem_art $fem_noun ) SENT-END ) 
