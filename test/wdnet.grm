@@ -1,0 +1,6 @@
+$fem_noun = mujer | perra | doctora | hija | rosa | torta | llave | piscina | luz | cancion | profesora;
+$masc_noun =  cartero | teatro | tio | mapa | tema | dia | platano | perro | doctor | planeta | carne;
+$masc_art = el;
+$fem_art = la;
+$verb = tiene | pone | sabe | come | quire | encuentra;
+( SENT-START ( $fem_art $fem_noun $verb $fem_art $fem_noun | $fem_art $fem_noun $verb $masc_art $masc_noun | $masc_art $masc_noun $verb $fem_art $fem_noun | $masc_art $masc_noun $verb $fem_art $fem_noun ) SENT-END ) 
